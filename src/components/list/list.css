@@ -1,0 +1,16 @@
+.country-list {
+    height: 500px;
+    border: 1px solid black;
+    overflow-y: scroll;
+}
+
+.country-row {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.country-row > img {
+   height: 40px;
+}

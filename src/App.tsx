@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
 import './App.css';
+import {MainPage} from "@pages";
+import {connect} from 'react-redux';
+import {IAppState, loadCountries} from './store';
+import {Loader} from "./components/loader";
 
-function App() {
+interface IAppComponentProps {
+    isCountriesLoaded: boolean;
+    loadCountries: () => void;
+}
+
+function AppComponent({isCountriesLoaded, loadCountries}: IAppComponentProps) {
+  useEffect(() => {
+      if (!isCountriesLoaded) {
+        loadCountries();
+      }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      isCountriesLoaded
+        ? <MainPage />
+        : <Loader />
   );
 }
 
-export default App;
+const mapStateToProps = (state: IAppState) => ({
+  isCountriesLoaded: state.isCountriesLoaded
+});
+
+const mapDispatchToProps = (dispatch: any) => ({
+    loadCountries: () => dispatch(loadCountries())
+});
+
+export const App = connect(mapStateToProps, mapDispatchToProps)(AppComponent);
