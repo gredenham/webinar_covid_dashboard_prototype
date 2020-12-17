@@ -1,9 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74e8afa3-d2f4-432e-be21-a4e279c8d6ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/country-map/country-map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/country-map/country-map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/country-map/country-map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Denis_Grekov &lt;gredenham@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="country_map" />
+                    <option name="lastUsedInstant" value="1608225293" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1608225292" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ln9HGNZAq8mKYkIShkyJrrqlik" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74e8afa3-d2f4-432e-be21-a4e279c8d6ed" name="Default Changelist" comment="" />
+      <created>1608221901754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608221901754</updated>
+      <workItem from="1608221904664" duration="2986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1368" y="-150" key="CommitChangelistDialog2" timestamp="1608225403323">
+      <screen x="-1920" y="-280" width="1920" height="1080" />
+    </state>
+    <state x="-1368" y="-150" key="CommitChangelistDialog2/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225403323" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1608225275963">
+      <screen x="-1920" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275963" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1608225275962">
+      <screen x="-1920" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275962" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1608225275961">
+      <screen x="-1920" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275961" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1608225275963">
+      <screen x="-1920" y="-280" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275963" />
+    <state x="-1295" y="-39" width="670" height="676" key="search.everywhere.popup" timestamp="1608222737090">
+      <screen x="-1920" y="-280" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="-39" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608222737090" />
   </component>
 </project>

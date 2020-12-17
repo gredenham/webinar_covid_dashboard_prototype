@@ -5,6 +5,7 @@ export interface Country {
     population: number;
     flag: string;
     name: string;
+    alpha3Code: string;
 }
 
 export interface IAppState {
@@ -57,7 +58,7 @@ export const setActiveCountry = (payload: string) => (dispatch: Dispatch) => {
 };
 
 export const loadCountries = () => (dispatch: Dispatch) => {
-    fetch('https://restcountries.eu/rest/v2/all?fields=name;population;flag')
+    fetch('https://restcountries.eu/rest/v2/all?fields=name;population;flag;alpha3Code')
         .then(async responce => {
             dispatch({ type: AppActions.SET_COUNTRIES, payload: await responce.json() })
         });
