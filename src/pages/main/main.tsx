@@ -8,9 +8,9 @@ import {
 export const MainPage = () => {
     return (
         <>
+            <Charts />
             <CountryList />
             <CountryMap />
-            <Charts />
         </>
     )
 }

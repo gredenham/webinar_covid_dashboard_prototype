@@ -1,9 +1,12 @@
 import React, {useEffect} from 'react';
-import './App.css';
 import {MainPage} from "@pages";
 import {connect} from 'react-redux';
 import {IAppState, loadCountries} from './store';
 import {Loader} from "./components/loader";
+
+import './App.css';
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.light.css';
 
 interface IAppComponentProps {
     isCountriesLoaded: boolean;
