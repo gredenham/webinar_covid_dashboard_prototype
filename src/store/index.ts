@@ -1,30 +1,14 @@
 import {AnyAction, applyMiddleware, createStore, Dispatch, compose} from 'redux';
 import thunk from "redux-thunk";
-
-export interface Country {
-    population: number;
-    flag: string;
-    name: string;
-    alpha3Code: string;
-}
-
-export interface IAppState {
-    countries: Country[];
-    isCountriesLoaded: boolean;
-    selectedCountry?: string;
-}
-
-export enum AppActions {
-    SET_COUNTRIES = 'SET_COUNTRIES',
-    SET_ACTIVE_COUNTRY = 'SET_ACTIVE_COUNTRY',
-}
+import {AppActions, IAppState} from "./store-types";
 
 const defaultState: IAppState = {
     isCountriesLoaded: false,
     countries: [],
+    countryCovidData: [],
 }
 
-function counterReducer(state: IAppState, action: AnyAction) {
+function counterReducer(state: IAppState, action: AnyAction): IAppState {
     const {payload, type} = action;
     switch (type) {
         case AppActions.SET_COUNTRIES:
@@ -37,6 +21,11 @@ function counterReducer(state: IAppState, action: AnyAction) {
             return {
                 ...state,
                 selectedCountry: payload,
+            }
+        case AppActions.SET_COUNTRY_COVID_DATA:
+            return {
+                ...state,
+                countryCovidData: payload,
             }
         default:
             return state
@@ -53,14 +42,6 @@ export const AppStore = createStore(
     )
 );
 
-export const setActiveCountry = (payload: string) => (dispatch: Dispatch) => {
-    dispatch({type: AppActions.SET_ACTIVE_COUNTRY , payload})
-};
-
-export const loadCountries = () => (dispatch: Dispatch) => {
-    fetch('https://restcountries.eu/rest/v2/all?fields=name;population;flag;alpha3Code')
-        .then(async responce => {
-            dispatch({ type: AppActions.SET_COUNTRIES, payload: await responce.json() })
-        });
-};
+export * from './actions';
+export * from './store-types';
 
