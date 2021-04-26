@@ -31,7 +31,7 @@ export const CountryList = () => {
                         style={{background: selectedCountry === alpha3Code ? 'lightgrey' : 'none', height: ROW_HEIGHT}}
                         onClick={() => setCountry(alpha3Code)}
                     >
-                        <img src={flag} />
+                        <img src={flag} alt={selectedCountry} />
                         <div>{name}</div>
                         <div>{population}</div>
                     </div>

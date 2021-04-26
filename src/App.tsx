@@ -18,7 +18,7 @@ function AppComponent({isCountriesLoaded, loadCountries}: IAppComponentProps) {
       if (!isCountriesLoaded) {
         loadCountries();
       }
-  }, []);
+  }, [isCountriesLoaded, loadCountries]);
 
   return (
       isCountriesLoaded

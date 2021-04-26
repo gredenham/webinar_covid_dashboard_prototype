@@ -1,4 +1,4 @@
-import {AnyAction, applyMiddleware, createStore, Dispatch, compose} from 'redux';
+import {AnyAction, applyMiddleware, createStore, compose} from 'redux';
 import thunk from "redux-thunk";
 import {AppActions, IAppState} from "./store-types";
 

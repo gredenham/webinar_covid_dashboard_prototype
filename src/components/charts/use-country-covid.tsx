@@ -1,4 +1,3 @@
-import * as React from 'react';
 import {useEffect, useState} from "react";
 import {loadCountryCovidData} from "@store";
 import {useDispatch} from "react-redux";
@@ -14,7 +13,7 @@ export const useCountryCovid = (countryName: string) => {
         }
         (dispatch(loadCountryCovidData(countryName)) as unknown as Promise<void>)
             .then(() => setLoading(false))
-    }, [countryName]);
+    }, [countryName, dispatch]);
 
     return [isLoading];
 }
