@@ -86,7 +86,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "build:gh-pages": "STATIC_PATH_PREFIX=\"webinar_covid_dashboard_prototype/\" node scripts/build.js"
+    "build:gh-pages": "PUBLIC_URL=\"webinar_covid_dashboard_prototype/\" node scripts/build.js"
   },
   "eslintConfig": {
     "extends": [
