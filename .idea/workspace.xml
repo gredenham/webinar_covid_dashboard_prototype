@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e8afa3-d2f4-432e-be21-a4e279c8d6ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/charts/use-country-covid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/charts/use-country-covid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,45 +96,11 @@
       <workItem from="1608221904664" duration="2986000" />
       <workItem from="1608383001517" duration="189000" />
       <workItem from="1608383342518" duration="3285000" />
-      <workItem from="1619432868502" duration="727000" />
+      <workItem from="1619432868502" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1368" y="-150" key="CommitChangelistDialog2" timestamp="1608225403323">
-      <screen x="-1920" y="-280" width="1920" height="1080" />
-    </state>
-    <state x="-1368" y="-150" key="CommitChangelistDialog2/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225403323" />
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1608386814895">
-      <screen x="1280" y="-280" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275963" />
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1608386814895" />
-    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1608386814893">
-      <screen x="1280" y="-280" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275962" />
-    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1608386814893" />
-    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1608386814891">
-      <screen x="1280" y="-280" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275961" />
-    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1608386814891" />
-    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1608386814894">
-      <screen x="1280" y="-280" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608225275963" />
-    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1608386814894" />
-    <state x="1939" y="-108" width="602" height="735" key="find.popup" timestamp="1608385427199">
-      <screen x="1280" y="-280" width="1920" height="1080" />
-    </state>
-    <state x="1939" y="-108" width="602" height="735" key="find.popup/0.0.1280.800/1280.-280.1920.1080@1280.-280.1920.1080" timestamp="1608385427199" />
-    <state x="-1295" y="-39" width="670" height="676" key="search.everywhere.popup" timestamp="1608222737090">
-      <screen x="-1920" y="-280" width="1920" height="1080" />
-    </state>
-    <state x="-1295" y="-39" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/-1920.-280.1920.1080@-1920.-280.1920.1080" timestamp="1608222737090" />
   </component>
 </project>
