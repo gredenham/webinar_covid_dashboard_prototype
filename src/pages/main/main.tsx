@@ -8,6 +8,7 @@ import {
 export const MainPage = () => {
     return (
         <>
+            <h1>COVID DASHBOARD</h1>
             <Charts />
             <CountryList />
             <CountryMap />
