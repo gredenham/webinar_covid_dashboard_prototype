@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.160f0605.chunk.css",
-    "main.js": "/static/js/main.ae228be5.chunk.js",
-    "main.js.map": "/static/js/main.ae228be5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f4354258.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f4354258.js.map",
-    "static/css/2.c3b2bdfc.chunk.css": "/static/css/2.c3b2bdfc.chunk.css",
-    "static/js/2.246a3261.chunk.js": "/static/js/2.246a3261.chunk.js",
-    "static/js/2.246a3261.chunk.js.map": "/static/js/2.246a3261.chunk.js.map",
-    "static/js/3.ddf2acf2.chunk.js": "/static/js/3.ddf2acf2.chunk.js",
-    "static/js/3.ddf2acf2.chunk.js.map": "/static/js/3.ddf2acf2.chunk.js.map",
+    "main.css": "/webinar_covid_dashboard_prototype/static/css/main.160f0605.chunk.css",
+    "main.js": "/webinar_covid_dashboard_prototype/static/js/main.ae228be5.chunk.js",
+    "main.js.map": "/webinar_covid_dashboard_prototype/static/js/main.ae228be5.chunk.js.map",
+    "runtime-main.js": "/webinar_covid_dashboard_prototype/static/js/runtime-main.39600fa9.js",
+    "runtime-main.js.map": "/webinar_covid_dashboard_prototype/static/js/runtime-main.39600fa9.js.map",
+    "webinar_covid_dashboard_prototype/static/css/2.c3b2bdfc.chunk.css": "/webinar_covid_dashboard_prototype/static/css/2.c3b2bdfc.chunk.css",
+    "webinar_covid_dashboard_prototype/static/js/2.246a3261.chunk.js": "/webinar_covid_dashboard_prototype/static/js/2.246a3261.chunk.js",
+    "webinar_covid_dashboard_prototype/static/js/2.246a3261.chunk.js.map": "/webinar_covid_dashboard_prototype/static/js/2.246a3261.chunk.js.map",
+    "webinar_covid_dashboard_prototype/static/js/3.ddf2acf2.chunk.js": "/webinar_covid_dashboard_prototype/static/js/3.ddf2acf2.chunk.js",
+    "webinar_covid_dashboard_prototype/static/js/3.ddf2acf2.chunk.js.map": "/webinar_covid_dashboard_prototype/static/js/3.ddf2acf2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.c3b2bdfc.chunk.css.map": "/static/css/2.c3b2bdfc.chunk.css.map",
-    "static/css/main.160f0605.chunk.css.map": "/static/css/main.160f0605.chunk.css.map",
-    "static/js/2.246a3261.chunk.js.LICENSE.txt": "/static/js/2.246a3261.chunk.js.LICENSE.txt",
-    "static/media/dx.light.css": "/static/media/dxicons.d8b3a23c.ttf"
+    "static/media/dx.light.css": "/static/media/dxicons.d8b3a23c.ttf",
+    "webinar_covid_dashboard_prototype/static/css/2.c3b2bdfc.chunk.css.map": "/webinar_covid_dashboard_prototype/static/css/2.c3b2bdfc.chunk.css.map",
+    "webinar_covid_dashboard_prototype/static/css/main.160f0605.chunk.css.map": "/webinar_covid_dashboard_prototype/static/css/main.160f0605.chunk.css.map",
+    "webinar_covid_dashboard_prototype/static/js/2.246a3261.chunk.js.LICENSE.txt": "/webinar_covid_dashboard_prototype/static/js/2.246a3261.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4354258.js",
-    "static/css/2.c3b2bdfc.chunk.css",
-    "static/js/2.246a3261.chunk.js",
-    "static/css/main.160f0605.chunk.css",
-    "static/js/main.ae228be5.chunk.js"
+    "webinar_covid_dashboard_prototype/static/js/runtime-main.39600fa9.js",
+    "webinar_covid_dashboard_prototype/static/css/2.c3b2bdfc.chunk.css",
+    "webinar_covid_dashboard_prototype/static/js/2.246a3261.chunk.js",
+    "webinar_covid_dashboard_prototype/static/css/main.160f0605.chunk.css",
+    "webinar_covid_dashboard_prototype/static/js/main.ae228be5.chunk.js"
   ]
 }
