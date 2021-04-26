@@ -35,3 +35,14 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
+          
+      - name: Lighthouse
+        run: |
+          npm install -g @lhci/cli
+          lhci collect --url=https://gredenham.github.io/webinar_covid_dashboard_prototype/ --silent
+          lhci upload
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{secrets.LHCI_GITHUB_APP_TOKEN}}
+          LHCI_SERVER_BASE_URL: ${{secrets.LHCI_SERVER_BASE_URL}}
+          LHCI_TOKEN: ${{secrets.LHCI_TOKEN}}
+        
